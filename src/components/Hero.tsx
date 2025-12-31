@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen flex items-center px-4 sm:px-6 md:px-8 pt-8 sm:pt-0">
+    <section id="hero" className="min-h-[85vh] sm:min-h-screen flex items-center px-4 sm:px-6 md:px-8">
       <div className="max-w-6xl mx-auto w-full">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           {/* Text content */}

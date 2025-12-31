@@ -281,7 +281,7 @@ export default function Header() {
       )}
 
       {/* Spacer */}
-      <div className="h-24"></div>
+      <div className="h-20 md:h-24"></div>
     </header>
   );
 }

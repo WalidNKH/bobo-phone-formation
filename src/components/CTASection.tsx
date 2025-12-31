@@ -1,6 +1,6 @@
 export default function CTASection() {
   return (
-    <section className="py-20 px-4 sm:px-6 md:px-8">
+    <section className="py-12 sm:py-20 px-4 sm:px-6 md:px-8">
       <div className="max-w-4xl mx-auto">
         <div className="scroll-animate relative bg-[var(--bobophone-primary)]/10 rounded-3xl p-8 sm:p-12 text-center overflow-hidden">
           {/* Background decoration */}

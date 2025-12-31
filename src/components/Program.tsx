@@ -53,9 +53,9 @@ const modules = [
 
 export default function Program() {
   return (
-    <section id="programme" className="py-20 px-4 sm:px-6 md:px-8">
+    <section id="programme" className="py-12 sm:py-20 px-4 sm:px-6 md:px-8">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16 scroll-animate">
+        <div className="text-center mb-10 sm:mb-16 scroll-animate">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             Programme de la{" "}
             <span className="text-[var(--bobophone-primary)]">formation</span>

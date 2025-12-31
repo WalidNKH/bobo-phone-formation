@@ -29,9 +29,9 @@ const stats = [
 
 export default function Testimonials() {
   return (
-    <section id="temoignages" className="py-20 px-4 sm:px-6 md:px-8 bg-[var(--foreground)]/[0.02]">
+    <section id="temoignages" className="py-12 sm:py-20 px-4 sm:px-6 md:px-8 bg-[var(--foreground)]/[0.02]">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 scroll-animate">
+        <div className="text-center mb-10 sm:mb-16 scroll-animate">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             Ils ont fait{" "}
             <span className="text-[var(--bobophone-primary)]">confiance</span> à BOBOPHONE
@@ -42,7 +42,7 @@ export default function Testimonials() {
         </div>
 
         {/* Testimonials grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10 sm:mb-16">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
